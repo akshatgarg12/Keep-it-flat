@@ -1,10 +1,13 @@
 # Keep-it-flat
-   1.A fitness tracking app.
-   2.This a basic entry level app, created for users to log their calorie intakes and burns throughout the day.
-   3.Diet is often considered the most important part of a transformation journey in fitness, that is what the application encourages.
-   4.Their exists a few workout plans as well, the user can complete these and log them in the calorie counter.
-   5.User can have a personalised user card, with height, weight, age , gender, BMI.
-   6.Keep it flat stands for keeping things flat in the user calorie count graph, to maintain a healthy lifestyle.
+   A fitness tracking app created in MERN stack.
+
+
+## intro
+   1. This a basic entry level app, created for users to log their calorie intakes and burns throughout the day.
+   2. Diet is often considered the most important part of a transformation journey in fitness, that is what the application encourages.
+   3. Their exists a few workout plans as well, the user can complete these and log them in the calorie counter.
+   4. User can have a personalised user card, with height, weight, age , gender, BMI.
+   5. Keep it flat stands for keeping things flat in the user calorie count graph, to maintain a healthy lifestyle.
 
 ## usage
 1. users can log their activity
