@@ -310,7 +310,7 @@ a{
   color:#fff;
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 90%;
   margin: auto;
