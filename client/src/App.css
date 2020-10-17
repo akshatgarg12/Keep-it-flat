@@ -310,6 +310,10 @@ a{
   color:#fff;
   display: flex;
   justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+  margin: auto;
 }
 
 @media screen and (max-width:1024px) {

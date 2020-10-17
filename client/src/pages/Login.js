@@ -16,7 +16,7 @@ const LoginPage = () => {
 
   useEffect(()=>{
     if(dispatch({type:ACTIONS.status})){
-      return history.push('/home');
+      return history.push('/');
     }else{
       return history.push('/login');
     }
