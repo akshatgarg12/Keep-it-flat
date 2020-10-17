@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* padding-bottom: 100px; */
+  box-sizing: border-box;
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  min-height: 100vh;
+  box-shadow: 0px 1px 1px 1px #d3d3d3;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background: #fff;
+}
+
+nav {
+  display: flex;
+  padding: 20px 40px;
+  justify-content: space-between;
+  background: #272727;
+  color: #fff;
+}
+
+nav .nav-logo {
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+}
+
+nav .nav-link {
+  font-size: 1rem;
+  margin: auto 0;
+  padding: 4px;
+  cursor: pointer;
+}
+.hidden{
+  display: none;
+}
+#edit{
+  border: 2px solid lightgreen;
+  padding: 40px;
+}
+.form-div {
+  width: 70%;
+  margin: 10% auto;
+}
+
+.form-input-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+  min-width: 250px;
+  margin: 3px auto;
+  margin-bottom: 7px;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.form-input {
+  width: 90%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.form-button-div {
+  width: 30%;
+  margin: auto;
+}
+
+.form-button {
+  width: 100%;
+  font-size: 1rem;
+  margin: auto;
+  outline: none;
+  border: 1px solid #272727;
+  transition: all ease 0.4s;
+}
+
+.form-button:hover {
+  background: #272727;
+  color: #fff;
+}
+
+.first-section {
+  height: 300px;
+}
+
+.card {
+  border: 1px solid grey;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.user-card {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-card .user-avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.user-card div span {
+  color: grey;
+}
+
+.user-card div h4 {
+  color: #272727;
+}
+
+.col-flex {
+  flex-direction: column;
+}
+
+.activity-logger {
+  width: 60%;
+  padding: 0%;
+}
+
+.activity-logger-nav {
+  background: #474747;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  color: #fff;
+  padding: 4px;
+}
+
+
+.activity-logger-div {
+  height: 90%;
+}
+
+.calorie_intake {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid #474747;
+}
+
+.calorie_burn {
+  width: 50%;
+  height: 100%;
+}
+
+.activity-logger-logs {
+  height: 80%;
+  overflow-y: scroll;
+}
+
+.activity-logger-input {
+  height: 20%;
+  border-top: 1px solid grey;
+}
+
+.activity-input-div {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: 10px auto;
+}
+
+.activity-input-div input {
+  width: 90%;
+  font-size: 1rem;
+  outline: none;
+}
+
+.activity-input-div i {
+  /* width: 20%; */
+  padding: 0 5px;
+  font-size: 1rem;
+  margin: auto;
+}
+
+.activity-button-div {
+  width: 10%;
+  margin: auto;
+}
+
+.activity-button {
+  margin: 10px 0;
+}
+
+.activity-log {
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 0;
+}
+
+.activity-log h4 {
+  margin: 0;
+  padding: 4px;
+}
+
+.activity-log h4 i {
+  font-size: 10px;
+}
+
+.activity-log h4 i:hover {
+  transform: scale(1.2);
+  color: red;
+}
+
+.graph-div {
+  width: 50%;
+}
+.graph-section{
+  margin: 50px auto;
+}
+
+.heading {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin: auto 10px;
+  display: inline;
+  border-bottom: 2px solid lightcoral;
+}
+
+.sub-heading {
+  display: inline-block;
+  font-size: 1rem;
+  margin-left: 20px;
+  border-bottom: 1px solid lightgreen;
+}
+
+.exercises-div {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.exercise {
+  border-right: 1px solid lightgreen;
+  border-left: 1px solid lightgreen;
+  justify-content: center;
+  text-align: center;
+}
+
+.exercise-img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.exercise-content {
+  text-align: left;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.exercise-content img {
+  height: 100px;
+  width: 25%;
+  object-fit: cover;
+  transition: all ease .3s;
+}
+
+.exercise-content img:hover {
+  transform: scale(1.5);
+}
+
+.exercise-content p {
+  color: #272727;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.exercise span {
+  color: grey;
+}
+
+.exercise-btn {
+  margin: 50px auto;
+  border: 1px solid lawngreen;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.exercise-btn:hover {
+  color: white;
+  background: lightgreen;
+}
+a{
+  text-decoration: none;
+  margin: auto 0;
+  color: #fff;
+}
+.footer i{
+  margin: auto 10px;
+  font-size: 1rem;
+}
+.footer{
+  background: #474747;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width:1024px) {
+  body {
+    height: 100%;
+  }
+
+  .first-section {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+  }
+
+  .user-card {
+    width: 90%;
+    margin: auto;
+  }
+
+  .activity-logger {
+    width: 90%;
+    margin: auto;
+  }
+
+  .graph-div {
+    width: 90%;
+    margin: auto;
+
+  }
+
+  .second-section {
+    flex-direction: column;
+  }
+
+  .exercises-div {
+    flex-direction: column;
+  }
+}
