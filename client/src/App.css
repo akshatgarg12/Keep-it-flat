@@ -12,7 +12,17 @@ body {
   font-weight: 400;
   background: #fff;
 }
-
+.footer i{
+  margin: auto 10px;
+  font-size: 1rem;
+}
+.footer{
+  background: #474747;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
 nav {
   display: flex;
   padding: 20px 40px;
@@ -41,6 +51,7 @@ nav .nav-link {
 }
 .form-div {
   width: 70%;
+  /* height: 100%; */
   margin: 10% auto;
 }
 
@@ -301,20 +312,7 @@ a{
   margin: auto 0;
   color: #fff;
 }
-.footer i{
-  margin: auto 10px;
-  font-size: 1rem;
-}
-.footer{
-  background: #474747;
-  color:#fff;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
-  width: 90%;
-  margin: auto;
-}
+
 
 @media screen and (max-width:1024px) {
   body {

@@ -37,6 +37,8 @@ const ProtectedRoute = () => {
             }}
           />
           <MainPage />
+          <Footer />
+
         </Route>
 
         <Route path="/login">
@@ -71,7 +73,6 @@ function App() {
           <Switch>
               <ProtectedRoute />
           </Switch>
-          <Footer />
           </div>
       </UserContextProvider>
       </Router>
