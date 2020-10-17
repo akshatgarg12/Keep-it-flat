@@ -43,7 +43,7 @@ const LoginPage = () => {
           });
           dispatch({type:ACTIONS.login});
           setTimeout(()=>{
-            return history.push('/home');
+            return history.push('/');
           },2000)
       } 
       else{
