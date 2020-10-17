@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 require('dotenv').config();
 const db_connection = require('./util/database/config/connect')
-const PORT = 5000 || process.env.PORT;
+const PORT =  process.env.PORT || 5000;
 const path = require('path');
 
 // middleware
