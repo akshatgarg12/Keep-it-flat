@@ -23,6 +23,14 @@
 4. exercise sessions
 5. somewhat responsive
 
+## Screenshots
+
+![Home page](https://github.com/akshatgarg12/Keep-it-flat/blob/master/Screenshot%202020-10-18%20at%203.05.09%20AM.png)
+![Graph Section](https://github.com/akshatgarg12/Keep-it-flat/blob/master/Screenshot%202020-10-18%20at%203.05.17%20AM.png)
+![Workout Section](https://github.com/akshatgarg12/Keep-it-flat/blob/master/Screenshot%202020-10-18%20at%203.05.21%20AM.png)
+![log a workout](https://github.com/akshatgarg12/Keep-it-flat/blob/master/Screenshot%202020-10-18%20at%203.05.27%20AM.png)
+
+
 ## To run this project on localhost:
   1. nodemon server.js
   2. cd client
