@@ -1,7 +1,7 @@
 # Keep-it-flat
    A fitness tracking app created in MERN stack.
-
-
+   Created for a hackerearth hackccelerate 72 hr hackathon 2020, placed among top 15 out more than 1500 teams that were registered for it globally.
+   
 ## intro
    1. This a basic entry level app, created for users to log their calorie intakes and burns throughout the day.
    2. Diet is often considered the most important part of a transformation journey in fitness, that is what the application encourages.
